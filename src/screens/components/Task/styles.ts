@@ -5,14 +5,14 @@ export const styles = StyleSheet.create({
             backgroundColor: '#262626',
             borderRadius: 6,
             width: 350,
-            marginTop: 30,
+            marginTop: 10,
             height: 65,
             marginLeft: 20,
             justifyContent: 'center',
             alignItems: 'center',
             borderColor: '#333333',
             borderWidth: 1,
-            flexDirection: 'row'
+            flexDirection: 'row',
         },
         text:{
             fontSize: 16,
