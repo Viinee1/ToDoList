@@ -106,6 +106,7 @@ export const styles = StyleSheet.create({
     contadoresForm:{
         marginTop: 50,
         flexDirection: 'row',
+        marginBottom: 20,
     },
     contadorCriadas:{
         marginLeft: 12,
