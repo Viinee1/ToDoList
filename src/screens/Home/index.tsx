@@ -30,7 +30,9 @@ export function Home(){
               text:'Sim',
               onPress: () => {
                 setTasks(prevState => prevState.filter(task => task !== description));
-                setCheckCounter(prevCounter => prevCounter - 1);
+                if(checkCounter != 0){
+                    setCheckCounter(prevCounter => prevCounter - 1);
+                }
               }
             },
             {
