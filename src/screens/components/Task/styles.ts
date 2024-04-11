@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
         text:{
             fontSize: 16,
             color: '#F1F1F1',
-            maxWidth: '70%'
+            maxWidth: '85%'
         },
         deleteButton:{
             width: 40,
